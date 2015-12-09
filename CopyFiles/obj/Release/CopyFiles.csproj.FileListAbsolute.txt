@@ -1,0 +1,5 @@
+c:\users\dejan.bujak\documents\visual studio 2012\Projects\CopyFiles\CopyFiles\bin\Release\CopyFiles.exe.config
+c:\users\dejan.bujak\documents\visual studio 2012\Projects\CopyFiles\CopyFiles\bin\Release\CopyFiles.exe
+c:\users\dejan.bujak\documents\visual studio 2012\Projects\CopyFiles\CopyFiles\bin\Release\CopyFiles.pdb
+c:\users\dejan.bujak\documents\visual studio 2012\Projects\CopyFiles\CopyFiles\obj\Release\CopyFiles.exe
+c:\users\dejan.bujak\documents\visual studio 2012\Projects\CopyFiles\CopyFiles\obj\Release\CopyFiles.pdb
