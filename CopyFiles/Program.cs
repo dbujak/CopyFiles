@@ -38,7 +38,8 @@ namespace CopyFiles
             watcher.NotifyFilter = NotifyFilters.FileName;
 
             // Add event handlers.
-            watcher.Created += new FileSystemEventHandler(OnChanged);
+            //watcher.Created += new FileSystemEventHandler(OnChanged);
+            watcher.Renamed += new RenamedEventHandler(OnChanged);
 
             // Begin watching.
             watcher.EnableRaisingEvents = true;
@@ -51,7 +52,13 @@ namespace CopyFiles
         // Define the event handler.
         private static void OnChanged(object source, FileSystemEventArgs e)
         {
-            System.Threading.Thread.Sleep(1000); // need this stupid pause, otherwise file is locked somehow
+            System.Threading.Thread.Sleep(3000); // need this stupid pause, otherwise file is locked somehow
+
+            if (e.FullPath.IndexOf(".pdf") < 0 || e.FullPath.IndexOf(".pdf") < 0)
+            {
+                return;
+            }
+
 
             try
             {

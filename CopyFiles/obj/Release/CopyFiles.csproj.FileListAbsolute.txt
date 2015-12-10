@@ -3,3 +3,13 @@ c:\users\dejan.bujak\documents\visual studio 2012\Projects\CopyFiles\CopyFiles\b
 c:\users\dejan.bujak\documents\visual studio 2012\Projects\CopyFiles\CopyFiles\bin\Release\CopyFiles.pdb
 c:\users\dejan.bujak\documents\visual studio 2012\Projects\CopyFiles\CopyFiles\obj\Release\CopyFiles.exe
 c:\users\dejan.bujak\documents\visual studio 2012\Projects\CopyFiles\CopyFiles\obj\Release\CopyFiles.pdb
+C:\GitHub\CopyFiles\CopyFiles\bin\Release\CopyFiles.exe.config
+C:\GitHub\CopyFiles\CopyFiles\obj\Release\CopyFiles.exe
+C:\GitHub\CopyFiles\CopyFiles\obj\Release\CopyFiles.pdb
+C:\GitHub\CopyFiles\CopyFiles\bin\Release\CopyFiles.exe
+C:\GitHub\CopyFiles\CopyFiles\bin\Release\CopyFiles.pdb
+C:\GitHub\CopyFiles\CopyFiles\obj\Release\CopyFiles.csprojResolveAssemblyReference.cache
+C:\GitHub\CopyFiles\CopyFiles\bin\Release\CopyFiles.exe.manifest
+C:\GitHub\CopyFiles\CopyFiles\bin\Release\CopyFiles.application
+C:\GitHub\CopyFiles\CopyFiles\obj\Release\CopyFiles.exe.manifest
+C:\GitHub\CopyFiles\CopyFiles\obj\Release\CopyFiles.application

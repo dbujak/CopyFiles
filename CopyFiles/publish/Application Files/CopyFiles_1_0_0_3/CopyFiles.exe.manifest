@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CopyFiles.exe" version="1.0.0.3" publicKeyToken="cb08c4aee797c954" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CopyFiles" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CopyFiles.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CopyFiles.exe" size="5632">
+      <assemblyIdentity name="CopyFiles" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>yt7M1JGLD8rvk/gJWYOgaKGoA8w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CopyFiles.exe.config" size="167">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zs0/m2EC7bZkaMXI4CN7NV2RQzg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RSTUDIO\dbujak" issuerKeyHash="f1dd6b3d888e7eb987bb33d4e43bb762c614b3eb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7euk3XI1ytbqX5W1xnAXy9uWp7fWdh/yaUXAxI61wMM=</DigestValue></Reference></SignedInfo><SignatureValue>AB3pR03hIShqotbhFyVKsS1O4DTnGQcn5Z50NJh6S2SiAUB0QFkoBGKnxe2RiyyD2cvzI6ml12lifcK59ufml+qdqHiafII7nXIVB33xMNUa1O4izngD2bE5dOx3z2J2XK1KTyaYB126P7242ujc4yZMN7zq5TDIM4dHd8WM9H0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pPwEOvdQHHvNUUk1tww7CGur3qBGWU0gz3tC2v+5wVh/hRsKXcEgeJuMMjWmNKQXLf4RiSivbEbTw6qv3IA+wBpqo4dEJbhoP5py2gpbLDuwShBfc2Z6+whD7WpB4Poh6lxHe0t1W7py7Sa+XheR3x0gbFkpcbKLSFbfOYDsHh8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c3c0b58ec4c04569f21f76d6b7a796dbcb1770c6b5955fead6ca3572dda4ebed" Description="" Url=""><as:assemblyIdentity name="CopyFiles.exe" version="1.0.0.3" publicKeyToken="cb08c4aee797c954" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RSTUDIO\dbujak</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zI4Bbdo6+VCC57gUlx3GhVqhQ/8kB/dtVmsAmUobP/4=</DigestValue></Reference></SignedInfo><SignatureValue>QjLbJnz0OvJSePqvot5V7jrcs0/7kAn2VFv4DdFB36yFUH9e2k9jBpWwmFgyaYqDaCGMqiU60yqg2gz/oHlE0qk7n2RL97pmaPeNTrJb0pvtMU74rH8I5NWQAsbjML3JAYuEDz+e6+CoqJMT1Gq1sK0wMNtbWy7GuKkxXPKpex8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pPwEOvdQHHvNUUk1tww7CGur3qBGWU0gz3tC2v+5wVh/hRsKXcEgeJuMMjWmNKQXLf4RiSivbEbTw6qv3IA+wBpqo4dEJbhoP5py2gpbLDuwShBfc2Z6+whD7WpB4Poh6lxHe0t1W7py7Sa+XheR3x0gbFkpcbKLSFbfOYDsHh8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQZLZ7yrdWHKhC3ZH4w8SEuTANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAUgBTAFQAVQBEAEkATwBcAGQAYgB1AGoAYQBrMB4XDTE1MTIxMDAwMDkwNVoXDTE2MTIwOTA2MDkwNVowJzElMCMGA1UEAx4cAFIAUwBUAFUARABJAE8AXABkAGIAdQBqAGEAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApPwEOvdQHHvNUUk1tww7CGur3qBGWU0gz3tC2v+5wVh/hRsKXcEgeJuMMjWmNKQXLf4RiSivbEbTw6qv3IA+wBpqo4dEJbhoP5py2gpbLDuwShBfc2Z6+whD7WpB4Poh6lxHe0t1W7py7Sa+XheR3x0gbFkpcbKLSFbfOYDsHh8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBo7/CeV2MGItgOvG6aeAdknFsynIXEerBoYN8aTNZ7jckfvTIaiR2iik3gN7e3gJlF/gEBQiLGg3FTDXvX3rntlPf4fghrG25O/Cr2XV3uqEXJ/PLrlYEAF5HsMV7iWl8oK9hYG7N16bjnjZ9yXDPXlMsgZg0+I6DIc4gfDieJqA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
